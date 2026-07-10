@@ -5,7 +5,6 @@ public:
           while((num[i]-'0')%2==0 && i>0){
             i--;
           }
-          cout<<i<<endl;
           if(i==0){
             if((num[i]-'0')%2==0){
                 return "";
